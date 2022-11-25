@@ -39,7 +39,8 @@ To run tests, run the following command:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+Live demo: [Live link](https://inspiring-tulumba-f9e3e3.netlify.app)
+
 
 👤 **Shuhad Loofer**
 
