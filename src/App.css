@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Fredoka One', cursive;
+}
+
+#root {
+  background-color: rgb(189, 189, 189);
+  height: 100vh;
+}
+
+/* nav bar styling */
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 5px 24px 3px rgba(0, 0, 0, 0.85);
+  margin-bottom: 1em;
+}
+
+.brandNameBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 37%;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 0.5em;
+}
+
+.navLogo {
+  width: 6.25em;
+  height: 6.25em;
+}
+
+.navTitle {
+  font-size: 2.5em;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  width: 25%;
+  padding-right: 0.5em;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.link:focus {
+  color: rgb(255, 223, 174);
+  text-shadow: 0 2px 2px rgba(255, 223, 174, 0.788);
+}
+
+.navVertLine {
+  height: 1.2em;
+  width: 2px;
+  background-color: whitesmoke;
+}
+
+/* nav bar styling end */
+
+/* rocket styling */
+
+.Rocket {
+  display: flex;
+}
+
+.rocketImage {
+  height: 12.5em;
+  width: 12.5em;
+  margin-bottom: 2.5em;
+  margin-left: 1em;
+}
+
+.Rocket-right {
+  padding-left: 1em;
+}
+
+.Rocket-top {
+  display: flex;
+  flex-direction: column;
+}
+
+.rocketTitle {
+  font-size: 1.6em;
+}
+
+.reserved {
+  margin-top: 0.5em;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.reservedPill {
+  align-items: center;
+  border-radius: 5px;
+  padding: 0.1em;
+  margin-right: 1em;
+  font-size: 0.9em;
+  background-color: rgb(28, 170, 180);
+  color: white;
+  width: fit-content;
+  height: min-content;
+}
+
+.Rocket-bottom {
+  margin-top: 1em;
+}
+
+.reserveBtn {
+  padding: 1.2em;
+  background-color: rgb(2, 123, 223);
+  border: none;
+  border-radius: 6px;
+  color: white;
+}
+
+.cancelRocketBtn {
+  padding: 1.2em;
+  background-color: rgb(2, 123, 223);
+  border: none;
+  border-radius: 6px;
+  color: white;
+}
+
+/* rocket styling end */
+
+/* mission styling */
+
+th {
+  text-align: start;
+  padding: 0.1em;
+}
+
+tr:nth-child(even) {
+  background-color: whitesmoke;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(189, 189, 189);
+}
+
+.text-none {
+  color: transparent;
+}
+
+.Mission {
+  background-color: rgb(146, 146, 146);
+  padding: 1em;
+}
+
+.col1 {
+  width: 10%;
+  vertical-align: top;
+  padding: 0.3em;
+}
+
+.col2 {
+  width: 70%;
+  padding: 0.5em;
+}
+
+.col3 {
+  padding: 0.5em;
+  width: 11%;
+}
+
+.badgeActive {
+  justify-content: center;
+  background-color: rgb(20, 163, 173);
+  border-radius: 5px;
+  color: white;
+  padding: 0.14em;
+}
+
+.badgeNotActive {
+  background-color: rgba(77, 77, 77, 0.76);
+  border-radius: 5px;
+  color: white;
+  padding: 0.14em;
+}
+
+.col4 {
+  padding: 1.3em;
+}
+
+.joinBtn {
+  background-color: transparent;
+  color: rgba(77, 77, 77, 0.76);
+  border-color: rgba(77, 77, 77, 0.76);
+}
+
+.cancelBtn {
+  background-color: transparent;
+  color: rgba(255, 0, 0, 0.76);
+  border-color: rgba(255, 0, 0, 0.76);
+}
+
+/* mission styling end */
+
+/* profile styling */
+
+.Profile {
+  width: 100%;
+  border-spacing: 1em;
+}
+
+.Profile:nth-child(even) {
+  background-color: rgb(189, 189, 189);
+}
+
+.profileTitle {
+  font-size: 1.5em;
+}
+
+.missionCol {
+  width: 40%;
+  padding: 0.4em;
+}
+
+.rocketCol {
+  width: 40%;
+}
