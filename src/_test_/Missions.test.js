@@ -6,10 +6,10 @@ import Missions from '../components/Missions';
 
 describe('Missions page', () => {
   test('render all missions', () => {
-    const mission = render (
-        <Provider store={store}>
-          <Missions />
-        </Provider>
+    const mission = render(
+      <Provider store={store}>
+        <Missions />
+      </Provider>,
     );
     expect(mission).toMatchSnapshot();
   });

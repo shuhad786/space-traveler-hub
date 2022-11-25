@@ -6,10 +6,10 @@ import Rockets from '../components/Rockets';
 
 describe('Missions page', () => {
   test('render all missions', () => {
-    const mission = render (
-        <Provider store={store}>
-          <Rockets />
-        </Provider>
+    const mission = render(
+      <Provider store={store}>
+        <Rockets />
+      </Provider>,
     );
     expect(mission).toMatchSnapshot();
   });

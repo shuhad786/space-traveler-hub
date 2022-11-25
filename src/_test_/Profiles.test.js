@@ -21,9 +21,9 @@ describe('To check if the missions and rockets display in my profile', () => {
   });
   test('Display My Rockets in Profile', () => {
     render(
-        <Provider store={store}>
-          <Profiles />
-        </Provider>
+      <Provider store={store}>
+        <Profiles />
+      </Provider>,
     );
     expect(screen.getByText('My Rockets')).toBeInTheDocument();
   });

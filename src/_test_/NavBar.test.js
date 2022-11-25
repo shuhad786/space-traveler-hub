@@ -5,7 +5,7 @@ import NavBar from '../components/NavBar';
 
 describe('Navbar', () => {
   test('render navbar correctly', () => {
-    const navbar = render (
+    const navbar = render(
       <React.StrictMode>
         <BrowserRouter>
           <NavBar />
