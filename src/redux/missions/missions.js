@@ -1,8 +1,8 @@
 import axios from 'axios';
 
-const DISPLAY_MISSION = 'react-redux-group-project/missions/DISPLAY_MISSION';
-const JOIN_MISSION = 'react-redux-group-project/missions/JOIN_MISSION';
-const CANCEL_MISSION = 'react-redux-group-project/missions/CANCEL_MISSION';
+const DISPLAY_MISSION = 'space-traveler/missions/DISPLAY_MISSION';
+const JOIN_MISSION = 'space-traveler/missions/JOIN_MISSION';
+const CANCEL_MISSION = 'space-traveler/missions/CANCEL_MISSION';
 const baseUrl = 'https://api.spacexdata.com/v3/missions';
 
 const initialState = [];

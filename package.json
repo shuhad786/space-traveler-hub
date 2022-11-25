@@ -32,7 +32,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "jest",
+    "test": "jest --transformIgnorePatterns \"node_modules/(?!axios)/\"",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -40,6 +40,9 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
   },
   "browserslist": {
     "production": [
